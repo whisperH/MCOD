@@ -1,4 +1,4 @@
-# SEAOP:
+# MCOD:
 
 ## Installation
 Please install the anaconda firstly.
@@ -57,7 +57,7 @@ check R version that the system can get, we need it >=4.2:
     ```shell
     pip install rpy2
     ```
-# Run Outliers Detection: MC-OD:
+# Run Outliers Detection:
 ## dataset1: test on simulated data of HeLa
 ``` bash
 python3 train_OD.py -c ../../configs/Hela/AE/AE_MEM10_S20.yaml data_dir datasets/Fake train_status false infer_status false eval_status true infer_datafile fake-shuffle_ratio-0.01-repeat_time-1.gz
