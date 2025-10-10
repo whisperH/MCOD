@@ -57,6 +57,25 @@ check R version that the system can get, we need it >=4.2:
     ```shell
     pip install rpy2
     ```
+
+### Data prepare
+1. create new folder: 'datasets' and 'Result'
+2. Downloading data from [here](https://drive.google.com/drive/folders/1-7Qfc0KdC_UN2390WssiDWITDDCqiVr7?usp=sharing), and unzip the data into dir: datasets. You will get file structure like:
+```
+-- configs
+-- datasets
+    -- Fake
+    -- Format
+-- Detectoutlier
+-- example
+-- extension
+-- Result
+-- tools
+-- visualization
+-- trainOD.py
+-- ...
+```
+ 
 # Run Outliers Detection:
 ## dataset1: test on simulated data of HeLa
 ``` bash
